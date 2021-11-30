@@ -1,0 +1,10 @@
+{
+  "editor.rulers": [100],
+  "editor.suggestSelection": "first",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "axios-reverse-proxy",
+  "version": "0.1.0",
+  "description": "A reverse proxy server that can make requests in the axios format.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "format": "prettier --write 'server.js'"
+  },
+  "repository": "git@github.com:poyo46/axios-reverse-proxy.git",
+  "author": "poyo46 <poyo4rock@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.23.0",
+    "fastify": "^3.22.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.4.1"
+  }
+}
