@@ -3,6 +3,11 @@ const fastify = require('fastify')({
 })
 const axios = require('axios')
 
+fastify.get('/', (request, reply) => {
+  reply.header('access-control-allow-origin', '*')
+  reply.send({ message: 'Hello, World!' })
+})
+
 fastify.options('/request', (request, reply) => {
   reply.header('allow', 'POST, OPTIONS')
   reply.header('access-control-allow-origin', '*')
